@@ -1,13 +1,13 @@
-Help for dump base:
-[PostgreSQL]
+#Help for dump base:
+##PostgreSQL]
 From command line:
-# [dump]
-# pg_dump -Utestuser -h localhost pageengine > pageengine.sql
+## dump
+	pg_dump -Utestuser -h localhost pageengine > pageengine.sql
 
-## where pageengin - your database
-## pageengine.sql - file of sql statement
-## testuser - username
+where pageengin - your database
+pageengine.sql - file of sql statement
+testuser - username
 
-#[restore]
+#restore
 
-# psql -Utestuser -h localhost pageengine < pageengine.sql
+	psql -Utestuser -h localhost pageengine < pageengine.sql
